@@ -5,7 +5,7 @@ Welcome to my terminal-inspired portfolio website! This project is a fully inter
 ---
 ## Note
 The latest code and development versions are available on the **`gh-branch`** branch.
-Please switch to the `gh-branch` branch to explore the complete source code and updates.
+Please switch to the [gh-branch](https://github.com/navnee1h/terminal-portfolio/tree/gh-pages) branch to explore the complete source code and updates.
 
 ## 🚀 Features
 
