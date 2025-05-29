@@ -96,12 +96,6 @@ Hi! I’m **Navaneeth M S**, a cyber forensics student and tech enthusiast passi
 - GitHub: [github.com/navnee1h](https://github.com/navnee1h)
 
 ---
-
-## 🎨 Screenshot
-
-![Portfolio Screenshot](./screenshot.png)
-
----
 Special credits to [parsherr](https://github.com/parsherr) for creating the original Ubuntu version of this project.
 ---
 > Built with ❤️ by Navaneeth M S
