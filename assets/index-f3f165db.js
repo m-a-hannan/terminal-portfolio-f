@@ -262,7 +262,7 @@ function print() { __p += __j.call(arguments, '') }
  | $$      /$$__  $$| $$       ____  $$| $$  | $$| $$_____/| $$      
  | $$     |  $$$$$$$| $$       /$$$$$$$/| $$  | $$|  $$$$$$$| $$      
  |__/      _______/|__/      |_______/ |__/  |__/ _______/|__/      
-            `}),P.jsx("div",{children:"Welcome to my terminal portfolio."}),P.jsx(lg,{children:"----"}),P.jsxs("div",{children:["This is my portfolio site:"," ",P.jsx(D$,{href:"https://parsher.xyz",target:"_blank",rel:"noopener noreferrer",children:"parsher.xyz"})]}),P.jsx(lg,{children:"----"}),P.jsxs("div",{children:["For a list of available commands, type ",P.jsx(N$,{children:"help"})]})]}),P.jsx(M$,{children:P.jsx(og,{children:`
+            `}),P.jsx("div",{children:"Welcome to my terminal portfolio."}),P.jsx(lg,{children:"----"}),P.jsxs("div",{children:["This is my main portfolio site:"," ",P.jsx(D$,{href:"https://parsher.xyz",target:"_blank",rel:"noopener noreferrer",children:"parsher.xyz"})]}),P.jsx(lg,{children:"----"}),P.jsxs("div",{children:["For a list of available commands, type ",P.jsx(N$,{children:"help"})]})]}),P.jsx(M$,{children:P.jsx(og,{children:`
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⠟⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⠀⠀⠈⠻⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣴⣶⣦⡀⠀⠀⠀
