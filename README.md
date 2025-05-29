@@ -3,6 +3,9 @@
 Welcome to my terminal-inspired portfolio website! This project is a fully interactive, terminal-style personal site built using modern web technologies. It mimics the experience of using a real command-line interface (CLI) directly in the browser.
 
 ---
+## Note
+The latest code and development versions are available on the **`gh-branch`** branch.
+Please switch to the `gh-branch` branch to explore the complete source code and updates.
 
 ## 🚀 Features
 
