@@ -1,8 +1,8 @@
-name: Sync Fork with Upstream
+name: Auto-Sync Fork with Upstream
 
 on:
   schedule:
-    - cron: '0 0 */3 * *' # runs at midnight UTC every 3 days
+    - cron: '0 0 */3 * *' # runs every 3 days at midnight UTC
   workflow_dispatch: # allows manual trigger
 
 jobs:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout fork
         uses: actions/checkout@v3
         with:
-          ref: main # change if your default branch is different
+          ref: main
 
       # Configure Git
       - name: Set up Git
@@ -22,7 +22,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Add upstream remote (main repo)
+      # Add upstream remote
       - name: Add upstream remote
         run: git remote add upstream https://github.com/navnee1h/terminal-portfolio.git
 
@@ -30,10 +30,11 @@ jobs:
       - name: Fetch upstream
         run: git fetch upstream
 
-      # Merge upstream changes into your fork
+      # Merge upstream changes automatically, favoring upstream
       - name: Merge upstream changes
-        run: git merge upstream/main --allow-unrelated-histories
+        run: |
+          git merge upstream/main -X theirs --allow-unrelated-histories || git merge --abort
 
-      # Push merged changes to your fork
+      # Push changes to fork
       - name: Push changes
         run: git push origin main
